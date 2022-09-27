@@ -1,7 +1,7 @@
 <?php
 
  
-$con = mysqli_connect("localhost","root","","croisette");
+$con = mysqli_connect("ao165.myd.infomaniak.com","ao165_dhs","","Hiss2424");
   if(!$con){
     echo "vous ";
   }
