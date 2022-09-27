@@ -4,8 +4,8 @@
   use App\Auth;
 use App\NumberHelper;
 
-  require '../vendor/autoload.php';
-  include_once "../connexion/connexion.php"; 
+  require '/../vendor/autoload.php';
+  include_once "/../connexion/connexion.php"; 
  $whoops = new \Whoops\Run;
  $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
  $whoops->register();
