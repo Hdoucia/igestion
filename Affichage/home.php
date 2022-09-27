@@ -5,7 +5,7 @@
 use App\NumberHelper;
 
   require '../../vendor/autoload.php';
-  include_once "../../connexion/connexion.php"; 
+  include_once "connexion/connexion.php"; 
  $whoops = new \Whoops\Run;
  $whoops->pushHandler(new \Whoops\Handler\PrettyPageHandler);
  $whoops->register();
