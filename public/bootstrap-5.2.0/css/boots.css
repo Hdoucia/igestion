@@ -1,0 +1,64 @@
+.forme{
+    background-color: #f6f8F8;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+  
+  }
+  .cards form{
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+  
+  }
+  
+  .back_btn{
+    color: #2bc48a;
+    text-decoration: 0;
+    display: flex;
+    align-items: center;
+  }
+  .back_btn img {
+    height: 16px;
+    margin-right: 5px;
+  
+  }
+  
+  h2{
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+  
+  }
+  .erreur_message{
+    color: red;
+  
+  }
+  
+  label{
+    margin: 5px;
+    border: 1px solid #999;
+    outline: 0;
+    margin-top: 2px;
+  
+  }
+  
+  input{
+    padding: 5px;
+    border: 1px solid #999;
+    outline: 0;
+    margin-top: 2px;
+  }
+  
+  input:focus{
+    border: 1px solid #ffcb61;
+  }
+  
+  input[type="submit"]{
+    margin-top: 25px;
+    background-color: #2bc48a;
+    border: 1px solid #2bc48a;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+  }

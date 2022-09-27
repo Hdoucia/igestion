@@ -1,0 +1,50 @@
+
+.sidebar{
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: 100;
+    transition: width 300ms;
+}
+
+
+.cards{
+    display:grid; 
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.card-single{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    color:#fff;
+    box-shadow: 2px 5px 10px 2PX rgb(0 0 0 / 10%);  
+}
+.card{
+    display: flex;
+    padding: 1rem;
+    box-shadow: 2px 5px 10px 2PX rgb(0 0 0 / 10%);  
+}
+.card-single span:last-child{
+
+    font-size: 2rem;
+    
+}
+.card-single small{
+    margin-top: 0rem;
+    color: green;
+}
+.card-single:hover{
+    background-color: #008EA1;
+    color:rgb(20, 13, 13)
+    
+}
+.content {
+    margin-top: 10px;
+    transition: 300ms;
+}
+
