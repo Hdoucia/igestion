@@ -1,0 +1,6 @@
+Options +FoloSymlinks
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILNAME} !-d
+RewriteCond %{REQUEST_FILNAME} !-f
+RewriteRule ^ index.php [L]
